@@ -20,8 +20,6 @@ end
 
 def kesha_maker(arr)
   kesha_arr = []
-  arr.each {|word|
-  kesha_arr << (word[2] = "$")
-}
+  arr.each{|word| kesha_arr << word[2] = "$"}
   return kesha_arr
 end
