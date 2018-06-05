@@ -22,4 +22,5 @@ def kesha_maker(arr)
   kesha_arr = []
   arr.each do |word|
   kesha_arr << word.gsub([3], $)
+  return kesha_arr
 end
