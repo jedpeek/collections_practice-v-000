@@ -35,3 +35,4 @@ end
 
 def sum_array(arr)
   arr.inject(0){|x,y| x + y}
+end
