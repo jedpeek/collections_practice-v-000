@@ -36,3 +36,8 @@ end
 def sum_array(arr)
   arr.inject(0){|x,y| x + y}
 end
+
+def add_s(arr)
+  if !arr[2]
+    arr.each{|word| word.push("s")}
+  end
