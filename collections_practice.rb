@@ -17,3 +17,11 @@ end
 def reverse_array(arr)
   arr.reverse
 end
+
+def kesha_maker(arr)
+  kesha_arr = []
+  arr.each do |word|{
+  kesha_arr << word.gsub(/s/, $)
+}
+  return kesha_arr
+end
