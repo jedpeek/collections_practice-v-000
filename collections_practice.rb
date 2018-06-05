@@ -32,4 +32,5 @@ def find_a(arr)
   arr.each{|x|
     if x.starts_with?("a")
       a_words << x
+    end
     }
