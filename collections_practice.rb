@@ -38,7 +38,9 @@ def sum_array(arr)
 end
 
 def add_s(arr)
+  words = []
   if !arr[2]
-    arr.each{|word| word.push("s")}
+    arr.each{|word| words << word.push("s")}
   end
+  words
 end
