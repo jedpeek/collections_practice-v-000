@@ -39,6 +39,7 @@ end
 
 def add_s(arr)
   words = []
+  if !arr[2]
     arr.each{|word| words << (word + "s")}
   words
 end
