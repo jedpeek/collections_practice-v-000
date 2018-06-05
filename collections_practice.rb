@@ -33,5 +33,5 @@ def find_a(arr)
   return a_words
 end
 
-def sum_array
-  
+def sum_array(arr)
+  arr.inject(0){|x,y| x + y}
