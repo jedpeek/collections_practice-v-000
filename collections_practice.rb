@@ -16,3 +16,4 @@ end
 
 def reverse_array(arr)
   arr.sort{|x,y| y<=>x}
+end
