@@ -26,3 +26,10 @@ def kesha_maker(arr)
   }
   return kesha_arr
 end
+
+def find_a(arr)
+  a_words = []
+  arr.each{|x|
+    if x.starts_with?("a")
+      a_words << x
+    }
