@@ -40,6 +40,5 @@ end
 def add_s(arr)
   words = []
     arr.each{|word| words << word.push("s")}
-  end
   words
 end
