@@ -38,6 +38,9 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.each_with_index.collect{|word, idx| if idx != 2 (word + "s")}
-
+  arr.each_with_index.collect{|word, idx|
+    if idx != 2
+    (word + "s")
+  end
+}
 end
