@@ -30,7 +30,7 @@ end
 def find_a(arr)
   a_words = []
   arr.each{|x|
-  x.start_with?("a") ? a_words << x : false
+  x.start_with?("a") ? a_words << x 
   }
   return a_words
 end
